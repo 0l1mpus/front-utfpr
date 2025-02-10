@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração</title>
+    <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+    <header class="admin-header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Gerenciamento de Usuários</h1>
+        <form id="user-form">
+            <input type="text" id="name" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <button type="submit">Cadastrar</button>
+            <button type="button" id="clear-fields">Limpar</button>
+        </form>
+        
+        <input type="text" id="search" placeholder="Pesquisar usuários">
+        <ul id="user-list"></ul>
+        <button id="clear-all">Excluir Todos</button>
+    </main>
+    
+    <script src="admin.js"></script>
+</body>
+</html>

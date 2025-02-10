@@ -1,0 +1,105 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .admin-header {
+    background-color: #4516b1;
+  }
+  
+  .admin-header ul li {
+    color: white;
+    cursor: pointer;
+    
+  }
+
+  
+  .admin-header ul li a:hover {
+    color: red;
+  }
+  
+
+  
+
+  .admin-header ul {
+    display: flex;
+    gap: 5rem;
+    margin-top: 0;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding: 2rem 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #4516b1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #320d91;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #e4e4e4;
+    margin: 0.5rem 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .delete-btn:hover {
+    background: darkred;
+  }
+  
